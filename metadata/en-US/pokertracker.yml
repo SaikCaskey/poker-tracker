@@ -1,0 +1,38 @@
+Categories:
+  - Tools
+AuthorName: PokerTracker
+AuthorEmail: system.ecks.uk@gmail.com
+License: MIT
+AutoName: Poker Tracker
+SourceCode: https://github.com/SaikCaskey/poker-tracker
+IssueTracker: https://github.com/SaikCaskey/poker-tracker/issues
+Summary: Simple offline poker event & expense tracker
+Description: |
+  Simple Compose Multiplatform App for tracking poker expenses.
+  
+  Add Venues, Plan events at them, and then associate Expenses.
+  
+  **Dependencies**
+  
+  - [Kermit](https://github.com/touchlab/Kermit) for logging
+  - [jordond/MaterialKolor](https://github.com/jordond/MaterialKolor) + Material3 for UI
+  - [kizitonwose/Calendar](https://github.com/kizitonwose/Calendar) for planner view
+  - [sqldelight/sqldelight](https://github.com/sqldelight/sqldelight) for observable database
+  - [arkivanov/Decompose](https://github.com/arkivanov/Decompose) for navigation
+  - [arkivanov/essenty](https://github.com/arkivanov/Essenty) for lifecycle
+  - [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) for icons
+  - [InsertKoinIO/koin](https://github.com/InsertKoinIO/koin) for di
+
+RepoType: git
+Repo: https://github.com/SaikCaskey/poker-tracker.git
+Builds:
+  - versionName: "0.1.0"
+    versionCode: 1
+    commit: v0.1.0
+    subdir: .
+    gradle:
+      - yes
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: "0.1.0"
+CurrentVersionCode: 1
