@@ -1,0 +1,1 @@
+  Add Venues, Plan events at them, and then associate Expenses.
