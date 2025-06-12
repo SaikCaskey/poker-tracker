@@ -1,0 +1,25 @@
+Categories:
+  - Tools
+AuthorName: PokerTracker
+AuthorEmail: system.ecks.uk@gmail.com
+License: MIT
+AutoName: Poker Tracker
+SourceCode: https://github.com/SaikCaskey/poker-tracker
+IssueTracker: https://github.com/SaikCaskey/poker-tracker/issues
+Summary: Simple offline poker event & expense tracker
+Description: |
+  Add Venues, Plan events at them, and then associate Expenses.
+
+RepoType: git
+Repo: https://github.com/SaikCaskey/poker-tracker.git
+Builds:
+  - versionName: "0.1.0"
+    versionCode: 1
+    commit: v0.1.0
+    subdir: .
+    gradle:
+      - yes
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: "0.1.0"
+CurrentVersionCode: 1
