@@ -21,11 +21,8 @@ fun RootContent(
     component: RootComponent,
     modifier: Modifier = Modifier,
 ) {
-    AppTheme(Color(33, 200, 3)) {
-        Surface(
-            modifier = modifier.fillMaxSize()
-                .windowInsetsPadding(WindowInsets.systemBars)
-        ) {
+    AppTheme(Color(70, 51, 250)) {
+        Surface(modifier = modifier.fillMaxSize().windowInsetsPadding(WindowInsets.systemBars)) {
             Children(
                 stack = component.rootNavigationStack,
                 modifier = Modifier.fillMaxSize(),
